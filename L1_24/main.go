@@ -5,6 +5,7 @@ import (
 	"math"
 )
 
+// структура для хранения координат
 type Point struct {
 	x float64
 	y float64

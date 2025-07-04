@@ -12,6 +12,7 @@ import (
 	"time"
 )
 
+// scanner и readInt для буферизованного ввода данных
 var scanner = bufio.NewScanner(os.Stdin)
 
 func readInt() int {
